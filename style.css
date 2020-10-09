@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+  font-family: 'Assistant', sans-serif;
+  justify-content: center;
+  margin: none;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+#display {
+  height: 150px;
+  width: 100%;
+  background-color: aliceblue;
+  color:#0033cc;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #ff9966;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+  border-color: #4ddbff;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
